@@ -1,0 +1,38 @@
+﻿# ==================================================
+# Django & Core
+# ==================================================
+Django==6.1.2
+djangorestframework==3.18.3
+djangorestframework-simplejwt==5.5.1
+django-cors-headers==4.9.0
+django-filter==26.2
+
+# ==================================================
+# Database
+# ==================================================
+# SQLite is bundled with Python (no package needed)
+
+# ==================================================
+# Utilities
+# ==================================================
+python-decouple==3.8
+Pillow==12.3.0
+
+# ==================================================
+# Production (optional, uncomment when needed)
+# ==================================================
+# gunicorn==23.0.0
+# psycopg2-binary==2.9.10  # PostgreSQL adapter
+# django-storages==1.14.4  # Cloud storage (S3, GCS)
+# boto3==1.35.0             # AWS SDK
+
+# ==================================================
+# Development & Testing (optional)
+# ==================================================
+# pytest==8.3.3
+# pytest-django==4.9.0
+# factory-boy==3.3.1
+# coverage==7.6.4
+# black==24.10.0
+# isort==5.13.2
+# flake8==7.1.1
