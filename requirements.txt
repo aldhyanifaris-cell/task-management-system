@@ -16,7 +16,7 @@ django-filter==26.2
 # Utilities
 # ==================================================
 python-decouple==3.8
-Pillow==12.3.0
+Pillow>=12.3.0
 
 # ==================================================
 # Production (optional, uncomment when needed)

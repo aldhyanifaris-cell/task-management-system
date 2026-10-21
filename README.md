@@ -1,4 +1,4 @@
-﻿# Task Management System
+# Task Management System
 
 A production-ready **RESTful API** built with **Django 6.1** and **Django REST Framework** for managing tasks, categories, and user accounts. Features JWT authentication, filtering, searching, pagination, and a customized Django Admin interface.
 
@@ -46,7 +46,7 @@ A production-ready **RESTful API** built with **Django 6.1** and **Django REST F
 | Filtering        | django-filter 26.2                  |
 | Database         | SQLite (dev) / PostgreSQL (prod)    |
 | Configuration    | python-decouple 3.8                 |
-| Image Handling   | Pillow 12.3.0                       |
+| Image Handling   | Pillow                       |
 
 ---
 
