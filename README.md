@@ -5,6 +5,16 @@ A production-ready **RESTful API** built with **Django 6.1** and **Django REST F
 ---
 
 ## Table of Contents
+## Screenshots
+
+### Login (JWT)
+![Login](docs/images/Login.png)
+
+### Tasks list
+![Tasks list](docs/images/Tasks-list.png)
+
+### Filtering
+![Filtering](docs/images/filtring.png)
 
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -15,6 +25,7 @@ A production-ready **RESTful API** built with **Django 6.1** and **Django REST F
 - [API Documentation](#api-documentation)
 - [API Examples](#api-examples)
 - [Running Tests](#running-tests)
+  ''' bash python manage.py test'''
 - [Admin Interface](#admin-interface)
 
 ---
@@ -106,7 +117,7 @@ task-management-system/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/task-management-system.git
+git clone https://github.com/aldhyanifaris-cell/task-management-system.git
 cd task-management-system
 
 # 2. Create virtual environment
@@ -123,6 +134,7 @@ pip install -r requirements.txt
 
 # 5. Set up environment variables
 cp .env.example .env
+copy .env.example .env
 # Edit .env with your values
 
 # 6. Run database migrations
@@ -373,6 +385,7 @@ Login with your superuser credentials. The admin provides:
 
 ```bash
 # Seed sample data
+> ⚠️ The seed command creates demo users with a known password. For local development only; never run it in production.
 python manage.py seed_data --users 5 --tasks 30
 
 # Clear and reseed
@@ -386,10 +399,15 @@ python manage.py migrate
 
 # Collect static files
 python manage.py collectstatic
-```
 
+```
+Tested with Python 3.15
 ---
 
 ## License
 
 MIT License - See [LICENSE](LICENSE) for details.
+
+## Author
+
+Faris Al-Dhyani — [GitHub](https://github.com/aldhyanifaris-cell)
